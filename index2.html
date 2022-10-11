@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*
+            tab = [1, 2, 4, 5, 3, 5, 90];
+      console.log(tab);
+      tab.push(5);
+      console.log(tab);
+      tab.length = tab.length - 1;
+      console.log(tab);
+      tab.pop();
+      console.log(tab);
+      tab.shift();
+      console.log(tab);
+      tab.unshift(6);
+      console.log(tab);
+      */
+      /*
+      let tab2 = new Array(0);
+
+      for (let j = 0; j < 10; j++) {
+        let wartosc2 = parseInt(prompt("wartosc do tablicy"));
+        if (wartosc2 % 2 != 0) {
+          tab2.push(wartosc2);
+        }
+      }
+      console.log(tab2);
+      */
+      /*
+      let tab = new Array(0);
+      const ile = parseInt(prompt("ile elementów w tablicy?"));
+       for (let i = 0; i < ile; i++) {
+         let wartosc = parseInt(prompt("wartosc do tablicy"));
+        tab.push(wartosc);
+       }
+
+      console.log(tab);
+      */
+      const tab = [
+        [1, 2, 3, 4, 5, 6],
+        [7, 8, 9, 11, 2, 3],
+        [4, 5, 6, 7, 8, 9],
+      ];
+      // console.log(tab[1]);
+      for (let i = 0; i < tab.length; i++) {
+        for (let j = 0; j < tab[i].length; j++) {
+          console.log(tab[i][j]);
+        }
+      }
+    </script>
+  </body>
+</html>
